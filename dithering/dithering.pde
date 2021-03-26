@@ -6,12 +6,9 @@ int findClosestPaletteColor(int c) {
 }
 
 void setup() {
-  size(750, 785);  
+  size(648, 655);  
     
-  img = loadImage("test.jpg");
-  
-  //img.resize(320,0);
-  
+  img = loadImage("test.jpeg"); 
   img.loadPixels();        
   for (int y = 0; y < img.height-1; y = y + 1) {
     for (int x = 0; x < img.width-1; x = x + 1) {
@@ -27,10 +24,8 @@ void setup() {
       img.pixels[x + 1 + (y + 1) * img.width] = img.pixels[x + 1 + (y + 1) * img.width] + quant_error * 1 / 16;      
     }
   }
-  
   img.updatePixels();
-  
- 
+  img.save("result.jpeg");
 }
 
 void draw() {

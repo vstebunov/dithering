@@ -36,12 +36,10 @@ PImage ditherImage(PImage img) {
 }
 
 void setup() {
-  size(1024, 768);  
+  size(648, 655);  
   
-  img = loadImage("test4.jpg");
+  img = loadImage("test.jpeg");
   img = ditherImage(img);   
+  img.save("result.jpeg");
   image(img, 0, 0, 1024, 768);
-}
-
-void draw() {
 }

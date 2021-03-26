@@ -68,14 +68,13 @@ PImage ditherImage(PImage img) {
 }
 
 void setup() {
-  size(1024, 768);  
+  size(648, 655);  
   
-   
-  img = loadImage("test7.jpg");
+  img = loadImage("test.jpeg");
   img = ditherImage(img);   
   image(img, 0, 0);
   
-  img.save("zxtest7.png");
+  img.save("result.jpeg");
 }
 
 void draw() {

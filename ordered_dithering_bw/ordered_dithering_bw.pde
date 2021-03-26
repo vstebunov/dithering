@@ -60,8 +60,8 @@ PImage ditherImage(PImage img) {
 }
 
 void setup() {
-  size(1024, 768);  
-  String image_name = "test7.jpg";   
+  size(648, 655);  
+  String image_name = "test.jpeg";   
   img = loadImage(image_name);
   img = ditherImage(img);   
   image(img, 0, 0);
@@ -70,7 +70,7 @@ void setup() {
   noStroke();
   noSmooth();
   
-  img.save("output_" + image_name.replaceAll("jpg", "png"));
+  img.save("result.jpeg");
 }
 
 void draw() {
