@@ -15,7 +15,8 @@ Dithering algorithms and implementations.
 
 ![Black and white ordered dithering](https://raw.githubusercontent.com/vstebunov/dithering/master/ordered_dithering_bw/result.jpeg)
 
+[Link to blog](http://vstebunov.me/06.html)
 
-## Others
+## Simple color replace
 
-![Other dithering](https://raw.githubusercontent.com/vstebunov/dithering/master/dithering2/result.jpeg)
+![Color replace](https://raw.githubusercontent.com/vstebunov/dithering/master/simple_color_replace/result.jpeg)
