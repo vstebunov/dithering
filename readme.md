@@ -2,6 +2,11 @@
 
 Dithering algorithms and implementations.
 
+## Atkinson
+
+![Atkinson dithering](https://raw.githubusercontent.com/vstebunov/dithering/master/atkinson/result.jpeg)
+
+
 ## Floyd–Steinberg dithering
 
 
